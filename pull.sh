@@ -2,9 +2,9 @@
 
 
 reps="latex_doutorado \
-	  ocean-wave \
-	  phd-wave-group \
-	  wave-climate-salinopolis"
+      ocean-wave \
+      phd-wave-group \
+      wave-climate-salinopolis"
 
 for rep in $reps; do
 	echo $rep
