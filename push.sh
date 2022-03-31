@@ -4,7 +4,9 @@
 reps="latex_doutorado \
 	  ocean-wave \
 	  phd-wave-group \
-	  wave-climate-salinopolis"
+	  wave-climate-salinopolis \
+	  hpppereira.github.io \
+	  ladsin-br"
 
 for rep in $reps; do
 	echo $rep
