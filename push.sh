@@ -1,18 +1,13 @@
 # Faz o git pull dos repositorios listados
 
 
-reps="atmosmarine-bkp \
-      delfos-db \
+reps="
       ladsin-br \
-      omega-assurua \
-      omega-azcopy \
-      omega-db \
-      omega-ecmwf \
-      omega-mapi \
-      pnboia-db \
-      prevmet-db \
-      simcosta-db \
-      webdemo-db"
+      latex-phd \
+      ocean-wave \
+      phd \
+      voa \
+      "
 
 for rep in $reps; do
     echo $rep
