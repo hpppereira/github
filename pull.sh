@@ -2,18 +2,13 @@
 
 
 reps="
-      atmosmarine \
-      daat-pleds \
+      environlink-ondas \
       ladsin-br \
-      latex_doutorado \
-      metocean-pnboia \
-      ocean-wave \
-      oceaneering \
+      latex-phd \
       omega-assurua \
-      phd-wave-group \
-      routing \
-      voa-sailboat \
-      wave-climate-salinopolis
+      omega-mapi \
+      phd \
+      voarqueiro.github.io \
      "
 
 for rep in $reps; do
@@ -22,3 +17,15 @@ for rep in $reps; do
       git pull
       echo "---------------------"
 done
+
+# atmosmarine \
+# daat-pleds \
+# ladsin-br \
+# latex_doutorado \
+# metocean-pnboia \
+# ocean-wave \
+# oceaneering \
+# phd-wave-group \
+# routing \
+# voa-sailboat \
+# wave-climate-salinopolis
