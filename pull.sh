@@ -1,15 +1,34 @@
 # Faz o git pull dos repositorios listados
 
-
 reps="
-      environlink-ondas \
-      ladsin-br \
-      latex-phd \
-      omega-assurua \
-      omega-mapi \
-      phd \
-      voarqueiro.github.io \
-     "
+atmosmarine-bkp \
+daat-pleds \
+delfos-db \
+environlink-ondas \
+github \
+ladsin-br \
+latex-phd \
+latex-phd-quali2 \
+lioc \
+ocean-wave \
+omega-assurua \
+omega-azcopy \
+omega-chui \
+omega-db \
+omega-ecmwf \
+omega-mapi \
+ondometro-optico \
+phd \
+pnboia-db \
+prevmet-db \
+routing \
+simcosta-db \
+slope-array \
+voa \
+voarqueiro.github.io \
+wamos-mb \
+webdemo-db \
+      "
 
 for rep in $reps; do
       echo $rep
@@ -17,15 +36,3 @@ for rep in $reps; do
       git pull
       echo "---------------------"
 done
-
-# atmosmarine \
-# daat-pleds \
-# ladsin-br \
-# latex_doutorado \
-# metocean-pnboia \
-# ocean-wave \
-# oceaneering \
-# phd-wave-group \
-# routing \
-# voa-sailboat \
-# wave-climate-salinopolis
