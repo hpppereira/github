@@ -21,6 +21,7 @@ omega-mapi \
 ondometro-optico \
 phd \
 pnboia-db \
+pnboia-wavegroup \
 prevmet-db \
 routing \
 simcosta-db \
@@ -30,7 +31,6 @@ voarqueiro.github.io \
 wamos-mb \
 webdemo-db \
       "
-
 
 
 for rep in $reps; do
