@@ -2,12 +2,36 @@
 
 
 reps="
-      ladsin-br \
-      latex-phd \
-      ocean-wave \
-      phd \
-      voa \
+atmosmarine-bkp \
+daat-pleds \
+delfos-db \
+environlink-ondas \
+github \
+ladsin-br \
+latex-phd \
+latex-phd-quali2 \
+lioc \
+ocean-wave \
+omega-assurua \
+omega-azcopy \
+omega-chui \
+omega-db \
+omega-ecmwf \
+omega-mapi \
+ondometro-optico \
+phd \
+pnboia-db \
+pnboia-wavegroup \
+prevmet-db \
+routing \
+simcosta-db \
+slope-array \
+voa \
+voarqueiro.github.io \
+wamos-mb \
+webdemo-db \
       "
+
 
 for rep in $reps; do
     echo $rep
