@@ -1,11 +1,14 @@
 # Faz o git pull dos repositorios listados
 
-
 reps="
+      daat-pleds \
       environlink-ondas \
+      github \
       ladsin-br \
       latex-phd \
+      ocean-wave \
       omega-assurua \
+      omega-db \
       omega-mapi \
       phd \
       voarqueiro.github.io \
@@ -17,15 +20,3 @@ for rep in $reps; do
       git pull
       echo "---------------------"
 done
-
-# atmosmarine \
-# daat-pleds \
-# ladsin-br \
-# latex_doutorado \
-# metocean-pnboia \
-# ocean-wave \
-# oceaneering \
-# phd-wave-group \
-# routing \
-# voa-sailboat \
-# wave-climate-salinopolis
